@@ -1,0 +1,3 @@
+theme: just-the-docs
+source: ./docs
+destination: ../_site
