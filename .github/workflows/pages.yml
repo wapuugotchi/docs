@@ -31,7 +31,7 @@ jobs:
     - name: Install dependencies
       run: bundle install
     - name: Build docs
-      run: bundle exec jekyll build --baseurl 
+      run: bundle exec jekyll build
       env:
         JEKYLL_ENV: production
     - name: Upload artifact
